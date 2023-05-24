@@ -26,17 +26,7 @@ RAJAONGKIR_API_KEY=xxxxxxxxxx
 RAJAONGKIR_PACKAGE=starter
 ```
 
-4. **Buka `.env` lalu ubah baris berikut sesuai dengan api midtrans kamu**
-
-```bash
-MIDTRANS_IS_PRODUCTION=false
-MIDTRANS_MERCHAT_ID=xxxxxx
-MIDTRANS_CLIENT_KEY=SB-Mid-client-xxxxx
-MIDTRANS_SERVER_KEY=SB-Mid-server-xxxxx
-```
-
-
-5. **Instalasi Aplikasi**
+4. **Instalasi Aplikasi**
 
 ```bash
 php artisan key:generate
@@ -44,7 +34,7 @@ php artisan migrate --seed
 ```
 jalankan php artisan db:seed (harus terkoneksi dengan internet soalnya mengambil data dari api raja ongkir)
 
-4. **Jalankan Aplikasi**
+5. **Jalankan Aplikasi**
 
 ```bash
 php artisan serve
